@@ -279,7 +279,7 @@ public class CCCDatePickView extends PopupWindow implements View.OnClickListener
      */
     private void initPickerViews() {
 
-        int yearCount = maxYear - minYear;
+        int yearCount = maxYear - minYear + 1;
 
         for (int i = 0; i < yearCount; i++) {
             yearList.add(format2LenStr(minYear + i));
