@@ -8,3 +8,22 @@
 使用方法完全与[brucetoo/PickView](https://github.com/brucetoo/PickView)相同。
 
 新增的方法为：`minMonth()`、`maxMonth()`、`minDay()`、`maxDay()`。
+
+# 使用方式
+
+`gradle`
+
+- Step 1. Add the JitPack repository to your build file, Add it in your root `build.gradle` at the end of repositories:
+      
+      allprojects {
+        repositories {
+          ...
+          maven { url 'https://jitpack.io' }
+        }
+      }
+     
+- Step 2. Add the dependency:
+   
+      dependencies {
+              implementation 'com.github.CodingCodersCode:CCCDatePickViewDemo:v1.0'
+      }
