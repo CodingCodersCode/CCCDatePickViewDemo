@@ -26,7 +26,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Date：2018/6/14 13:39
  * <p>
- * author: ghc
+ * author: CodingCodersCode
  */
 public class LoopView extends View {
     private static final String TAG = LoopView.class.getSimpleName();
