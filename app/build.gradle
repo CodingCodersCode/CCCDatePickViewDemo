@@ -15,6 +15,15 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+
+        debug {
+            debuggable false
+
+
+            //debug时使用release签名
+            //signingConfig signingConfigs.release
+
+        }
     }
 }
 

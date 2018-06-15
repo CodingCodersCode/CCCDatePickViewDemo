@@ -34,13 +34,13 @@ public class MainActivity extends AppCompatActivity {
                         .viewTextSize(25) // pick view text size
                         .colorCancel(Color.parseColor("#999999")) //color of cancel button
                         .colorConfirm(Color.parseColor("#009900"))//color of confirm button
-                        .minYear(1990) //min year in loop
-                        .maxYear(2550) // max year in loop
+                        .minYear(2017) //min year in loop
+                        .maxYear(2017) // max year in loop
                         .minMonth(1)
-                        .maxMonth(8)
+                        .maxMonth(4)
                         .minDay(1)
                         .maxDay(10)
-                        .dateChose("2013-6-6") // date chose when init popwindow
+                        .dateChose("2017-4-5") // date chose when init popwindow
                         .build();
                 pickerPopWin.showPopWin(MainActivity.this);
             }
